@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(17, 195, 226) 
+
+   
+}
+
+
+  
+  
+.contenedor {
+    position: relative;
+  }
+  
+  h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .enlace {
+    position: relative;
+    height: 95vh; /* Ajusta la altura según tu diseño */
+  }
+  
+  a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 30px;
+    background-color: #f3e9e9;
+    
+
+  }

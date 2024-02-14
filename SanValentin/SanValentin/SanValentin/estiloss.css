@@ -1,0 +1,44 @@
+body{
+    background-color: rgba(95, 163, 172, 0.247);
+    background-image: url(docs/planet.avif);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 10%;
+    background-attachment: fixed;
+    
+}
+p {
+    font-size: 34px;
+    color: rgb(4, 89, 248);
+  }
+.titulo{
+    text-align: center;
+
+}
+.audio{
+    text-align: center;
+}
+
+.separador-corazones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+  }
+  
+  .separador-corazones span {
+    animation: latido 1s infinite alternate;
+    color: red;
+  }
+  
+  @keyframes latido {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
